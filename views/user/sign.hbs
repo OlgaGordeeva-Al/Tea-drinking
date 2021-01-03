@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="/css/style.css">
+<form name = "regform" action="/user/sign" method="POST">
+  <div class="container">
+    <h2>Регистрация</h2>
+    <p>Для регистрации укажите свои данные</p>
+    <p>{{message}}</p>
+    <hr>
+
+    <input type="text" placeholder="Укажите имя" name="name" required>
+    
+    <input type="text" placeholder="Укажите E-mail" name="email" required>
+
+    <input type="password" placeholder="Укажите пароль" name="psw" required>
+
+    <div><button type="submit" class="registerbtn">Зарегистрироваться</button></div>
+  </div>
+</form>
+<div><a href="/">Вернуться на главную</a></div>

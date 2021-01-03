@@ -1,0 +1,15 @@
+<script defer src={process.env.API} type="text/javascript"></script>
+<script defer src="/js/getcoor.js" type="text/javascript"></script>
+<hr>
+<div>
+  {{#if user}}
+  <form action="/entry" method="POST" name="entry_post" id="entry_post" ref='uploadForm' encType="multipart/form-data">
+    <input placeholder="Название чая" type="text" name="title"></input>
+    <input placeholder="Описание" type="text" name="description" />
+    <input placeholder="Место культивации" type="text" name="location" />
+    <div><button type="submit" class="registerbtn">Добавить</button></div>
+  </form>
+  <div><a href="/">Вернуться на главную</a></div>
+  {{/if}}
+</div>
+<div id="map"></div>

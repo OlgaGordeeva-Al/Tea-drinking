@@ -20,7 +20,7 @@ npm start
 # Страница чая 
 ![Страница чая](Screenshots/about-tea.png)
 # Добавление чая
-![Добавление чая](screenshots/Add-tea-page.png)
+![Добавление чая](Screenshots/Add-tea-page.png)
 
 
 

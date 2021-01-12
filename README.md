@@ -25,6 +25,6 @@ npm start
 
 
 # Авторы 
-1. views, routes - Гавриил Волков, Ольга Гордеева.
+1. views, routes - [Гавриил Волков]:https://github.com/gavriil-volkov, [Ольга Гордеева]:https://github.com/OlgaGordeeva-Al.
 2. Работа с yandex api - Андрей Коваленко.
-3. Дизайн сайта - Гавриил Волков.
+3. Дизайн сайта - [Гавриил Волков]:https://github.com/gavriil-volkov.
